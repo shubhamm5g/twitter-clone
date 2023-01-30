@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --bigger-size:45px;
+    --big-size:30px;
+    --normal-size:16px;
+    --small-size:10px;
+    --footer-text-size:12px;
+
+    --background-color:black;
+    --blue-color:rgb(35, 149, 236);
+    --white-color:white;
+    --gray-color:rgb(67, 67, 67);
+    --black-color:black;
+
+}
+body{
+    background-color: var(--background-color);
+}
+.rows{
+    display: flex;
+    flex-direction: row;
+     height: 735px;;
+
+}
+.row1{
+
+    width: 60%;
+    height: 735px;
+    background-image:url(../docs/side_background.png) ;
+    background-size: cover;
+
+}
+.row2{
+    width: 500px;
+    padding: 50px;
+
+}
+.logo{
+    background-image: url(../docs/twitter_logo.png);
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+}
+h1.bigger_text{
+    font-size: var(--bigger-size);
+    margin-top: 60px;
+    margin-bottom: 40px;
+    color: var(--white-color);
+}
+h1.middle_text{
+    color: var(--white-color);
+    font-size: var(--big-size);
+    margin-bottom: 30px;
+}
+.link_body{
+    padding: 7px;
+    border-radius: 50px;
+    text-align: center;
+    border: solid;
+    width: 300px;
+}
+.login_api{
+    color: var(--black-color);
+    background-color: var(--white-color);
+    margin-bottom: 10px;
+    border: var(--gray-color) solid;
+    font-weight: 550;
+}
+.dividing_sec_or{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    text-align: center;
+    margin: 20px 10px;
+    color: var(--gray-color);
+}
+.line{
+    margin-top: 12px;
+    width: 45%;
+    margin-right: 20px;
+    border-top: solid 0.1px;
+}
+.line:first-child{
+    margin-right: 20px;
+}
+.line:last-child{
+    margin-left: 20px;
+}
+
+.sign_up{
+    background-color: var(--blue-color);
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+}
+
+p.termsandcondtion{
+    width: 300px;
+    font-size: var(--small-size);
+    color: var(--gray-color);
+}
+.sign_in{
+    color: var(--black-color);
+    background-color: var(--white-color);
+    border: solid var(--blue-color);
+}
+
+
+
+.footer{
+    margin-top: 10px;
+    text-align: center;
+    
+
+}
+a.footer_link{
+    color:var(--gray-color) ;
+    font-size: var(--footer-text-size);
+}
